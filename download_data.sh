@@ -1,9 +1,3 @@
-
-### Script File: `download_data.sh`
-
-Create a file named `download_data.sh` with the following content:
-
-```bash
 #!/bin/bash
 
 # Create directories for storing data
