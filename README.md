@@ -80,3 +80,5 @@ BiocManager::install(c("Rsamtools", "GenomicAlignments", "VariantAnnotation", "G
 
 # Install CRAN package
 install.packages("ggplot2")
+
+
