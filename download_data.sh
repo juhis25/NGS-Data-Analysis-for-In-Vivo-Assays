@@ -8,11 +8,11 @@ mkdir -p data/reference
 cd data/fastq
 
 # Download example data from SRA
-fastq-dump --split-files SRR12345678
+fastq-dump --split-files SRR28196122
 
 # Rename files for consistency (if necessary)
-mv SRR12345678_1.fastq sample_R1.fastq
-mv SRR12345678_2.fastq sample_R2.fastq
+mv SRR28196122_1.fastq sample_R1.fastq
+mv SRR28196122_2.fastq sample_R2.fastq
 
 # Download the reference genome
 cd ../reference
